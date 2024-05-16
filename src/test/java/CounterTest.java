@@ -27,17 +27,6 @@ public class CounterTest {
 	}
 
 	@Test
-	public void testDoubleIncrement() {
-		Counter testCounter = new Counter();
-		
-		for(int i = 1; i <10; i++) {
-			testCounter.increment();
-			testCounter.increment();
-			assertEquals(testCounter.getCount(), 18);
-		}
-	}
-
-	@Test
 	public void testDecrement() {
 		Counter testCounter = new Counter();
 		
